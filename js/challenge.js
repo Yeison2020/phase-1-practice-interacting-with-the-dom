@@ -1,10 +1,9 @@
 let countTime = setInterval(myTimer, 1000);
 function myTimer() {
-  let d = 0++
-  let t = ++d.toString()
-  document.getElementById("counter").innerHTML = t;
+  let data = 0;
+  let dataString = `${data++}`;
+  document.getElementById("counter").innerHTML = dataString;
 }
-document.addEventListener('DOMcontentLoad', countTime);
 
 //----Event Listeners Buttons
 
